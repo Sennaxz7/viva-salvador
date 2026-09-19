@@ -1,0 +1,12 @@
+{
+  "name": "viva-salvador",
+  "version": "1.0.0",
+  "description": "Portal turístico acadêmico sobre Salvador usando Node.js e o módulo HTTP nativo.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["nodejs", "http", "salvador", "turismo", "bahia"],
+  "author": "Projeto acadêmico",
+  "license": "MIT"
+}

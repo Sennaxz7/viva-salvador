@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portal turístico moderno sobre Salvador, Bahia, com história, pontos turísticos, cultura, gastronomia, roteiros e informações úteis.">
+  <meta name="theme-color" content="#0B4F8A">
+  <link rel="icon" href="/public/assets/logo-mark.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <title>Início | Viva Salvador</title>
+  <link rel="stylesheet" href="/public/css/style.css">
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
+  <script src="/public/js/main.js" defer></script>
+</head>
+<body>
+
+<header class="site-header ">
+  <div class="container nav">
+    <a class="brand" href="/" aria-label="Viva Salvador - página inicial">
+      <img src="/public/assets/logo-mark.svg" alt="" width="39" height="39">
+      <span>Viva Salvador</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-menu"><i data-lucide="menu"></i></button>
+    <ul class="nav-links" id="main-menu">
+      <li><a href="/">Início</a></li>
+      <li><a href="/historia">História</a></li>
+      <li><a href="/pontos-turisticos">Pontos Turísticos</a></li>
+      <li><a href="/cultura">Cultura</a></li>
+      <li><a href="/gastronomia">Gastronomia</a></li>
+      <li><a href="/galeria">Galeria</a></li>
+      <li><a href="/informacoes">Informações</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+
+<section class="hero">
+  <img class="hero__media" src="https://commons.wikimedia.org/wiki/Special:FilePath/Farol%20da%20Barra%20-%20Salvador%20BA%20%2852275583967%29.jpg?width=1600" alt="Farol da Barra em Salvador, com o mar ao fundo">
+  <div class="container hero__content">
+    <div class="hero__badge"><i data-lucide="compass" size="16"></i> Guia essencial da capital baiana</div>
+    <h1>Viva<br>Salvador</h1>
+    <p class="hero__lead">História, cultura e experiências que só Salvador pode oferecer — do Centro Histórico ao pôr do sol na Baía de Todos-os-Santos.</p>
+    <div class="hero__actions">
+      <a class="btn btn--primary" href="/pontos-turisticos">Explorar Salvador <i data-lucide="arrow-right" size="18"></i></a>
+      <a class="btn btn--secondary" href="#roteiros">Montar meu roteiro <i data-lucide="map" size="18"></i></a>
+    </div>
+    <div class="hero__meta">
+      <span><i data-lucide="landmark" size="16"></i> Fundação em 1549</span>
+      <span><i data-lucide="waves" size="16"></i> Entre o Atlântico e a Baía de Todos-os-Santos</span>
+      <span><i data-lucide="badge-check" size="16"></i> Centro Histórico reconhecido pela UNESCO</span>
+    </div>
+  </div>
+  <span class="hero__credit">Foto: Wikimedia Commons</span>
+</section>
+
+<section class="section">
+  <div class="container intro-grid">
+    <aside class="intro-note reveal">
+      <span class="eyebrow">Salvador em perspectiva</span>
+      <strong>Uma cidade em camadas</strong>
+      <span>Patrimônio, mar, música, religiosidade, arquitetura e gastronomia dividindo o mesmo território.</span>
+    </aside>
+    <div class="reveal">
+      <span class="eyebrow">Primeiro contato</span>
+      <h2 class="section-title">Salvador não cabe em um único cartão-postal.</h2>
+      <div class="prose">
+        <p>Fundada em 1549 e primeira capital do Brasil até 1763, Salvador cresceu em torno de um porto estratégico e de uma geografia marcada pela Cidade Alta, Cidade Baixa e pela Baía de Todos-os-Santos.</p>
+        <p>Hoje, o visitante encontra patrimônio colonial, praias urbanas, bairros boêmios, mercados, terreiros, igrejas, festas populares e uma culinária que expressa a profunda influência afro-brasileira na identidade da cidade.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-head__text"><span class="eyebrow">Em números e marcos</span><h2 class="section-title">Alguns pontos para entender Salvador.</h2></div>
+      <a class="text-link" href="/historia">Ver linha do tempo <i data-lucide="arrow-right" size="18"></i></a>
+    </div>
+    <div class="stats reveal">
+      <div class="stat"><span class="stat__number" data-counter="1549">1549</span><span class="stat__label"><strong>Fundação</strong><br>como sede do Governo-Geral.</span></div>
+      <div class="stat"><span class="stat__number" data-counter="214" data-suffix=" anos">214 anos</span><span class="stat__label"><strong>Capital do Brasil</strong><br>de 1549 a 1763.</span></div>
+      <div class="stat"><span class="stat__number" data-counter="1985">1985</span><span class="stat__label"><strong>UNESCO</strong><br>inscrição do Centro Histórico.</span></div>
+      <div class="stat"><span class="stat__number" data-counter="2">2</span><span class="stat__label"><strong>Cidades conectadas</strong><br>Cidade Alta e Cidade Baixa.</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-head__text"><span class="eyebrow">Essenciais</span><h2 class="section-title">Oito lugares para começar a descobrir a cidade.</h2><p class="section-copy">Uma seleção que combina patrimônio, paisagem, fé, gastronomia, vida urbana e mar.</p></div>
+      <a class="btn btn--outline" href="/pontos-turisticos">Ver todos <i data-lucide="arrow-right" size="17"></i></a>
+    </div>
+    <div class="cards-grid">
+      <article class="place-card reveal"><div class="place-card__image"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Pelourinho-Salvador.jpg?width=1800" alt="Casario histórico colorido do Pelourinho em Salvador" loading="lazy"><span class="badge">História</span></div><div class="place-card__body"><div class="place-card__meta"><i data-lucide="map-pin" size="15"></i>Centro Histórico</div><h3>Pelourinho</h3><p>Ruas de pedra, largos, igrejas e casario que sintetizam séculos de história urbana.</p><a class="text-link" href="/pontos-turisticos">Saiba mais <i data-lucide="arrow-right" size="16"></i></a></div></article><article class="place-card reveal"><div class="place-card__image"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Farol%20da%20Barra%20-%20Salvador%20BA%20%2852275583967%29.jpg?width=1600" alt="Farol da Barra em Salvador" loading="lazy"><span class="badge">Mar & História</span></div><div class="place-card__body"><div class="place-card__meta"><i data-lucide="map-pin" size="15"></i>Barra</div><h3>Farol da Barra</h3><p>Forte, museu, horizonte aberto e um dos entardeceres mais conhecidos da cidade.</p><a class="text-link" href="/pontos-turisticos">Saiba mais <i data-lucide="arrow-right" size="16"></i></a></div></article><article class="place-card reveal"><div class="place-card__image"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Elevador%20Lacerda.jpg?width=1200" alt="Elevador Lacerda visto da Cidade Baixa" loading="lazy"><span class="badge">Arquitetura</span></div><div class="place-card__body"><div class="place-card__meta"><i data-lucide="map-pin" size="15"></i>Comércio</div><h3>Elevador Lacerda</h3><p>Um dos marcos visuais de Salvador e ligação histórica entre as partes alta e baixa.</p><a class="text-link" href="/pontos-turisticos">Saiba mais <i data-lucide="arrow-right" size="16"></i></a></div></article><article class="place-card reveal"><div class="place-card__image"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Cidade%20bassa%2C%20pra%C3%A7a%20Cairu%2C%20mercado%20modelo%2001.JPG?width=1200" alt="Fachada do Mercado Modelo em Salvador" loading="lazy"><span class="badge">Cultura</span></div><div class="place-card__body"><div class="place-card__meta"><i data-lucide="map-pin" size="15"></i>Praça Cairu</div><h3>Mercado Modelo</h3><p>Artesanato, lembranças, gastronomia e vista privilegiada para a Baía.</p><a class="text-link" href="/pontos-turisticos">Saiba mais <i data-lucide="arrow-right" size="16"></i></a></div></article><article class="place-card reveal"><div class="place-card__image"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/NSBonfim-Salvador-CCBY.jpg?width=1000" alt="Fachada da Igreja do Senhor do Bonfim" loading="lazy"><span class="badge">Fé</span></div><div class="place-card__body"><div class="place-card__meta"><i data-lucide="map-pin" size="15"></i>Bonfim</div><h3>Senhor do Bonfim</h3><p>Símbolo religioso e cultural associado a uma das festas populares mais marcantes da Bahia.</p><a class="text-link" href="/pontos-turisticos">Saiba mais <i data-lucide="arrow-right" size="16"></i></a></div></article><article class="place-card reveal"><div class="place-card__image"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Dique%20do%20Toror%C3%B3%20e%20Arena%20Fonte%20Nova.jpg?width=1400" alt="Dique do Tororó com esculturas dos orixás e Arena Fonte Nova" loading="lazy"><span class="badge">Paisagem</span></div><div class="place-card__body"><div class="place-card__meta"><i data-lucide="map-pin" size="15"></i>Tororó</div><h3>Dique do Tororó</h3><p>Lago urbano, esculturas dos orixás e vista para a Arena Fonte Nova.</p><a class="text-link" href="/pontos-turisticos">Saiba mais <i data-lucide="arrow-right" size="16"></i></a></div></article><article class="place-card reveal"><div class="place-card__image"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Rio%20Vermelho%20Salvador%20Bahia%20Aerial%20View%202021-0397.jpg?width=1400" alt="Vista aérea do bairro do Rio Vermelho em Salvador" loading="lazy"><span class="badge">Experiências</span></div><div class="place-card__body"><div class="place-card__meta"><i data-lucide="map-pin" size="15"></i>Rio Vermelho</div><h3>Rio Vermelho</h3><p>Bairro boêmio que reúne restaurantes, bares, praias e manifestações culturais.</p><a class="text-link" href="/pontos-turisticos">Saiba mais <i data-lucide="arrow-right" size="16"></i></a></div></article><article class="place-card reveal"><div class="place-card__image"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Praia%20do%20Porto%20da%20Barra%204.jpg?width=1400" alt="Praia do Porto da Barra em Salvador" loading="lazy"><span class="badge">Praia</span></div><div class="place-card__body"><div class="place-card__meta"><i data-lucide="map-pin" size="15"></i>Barra</div><h3>Porto da Barra</h3><p>Uma das praias urbanas mais procuradas para banho, encontro e pôr do sol.</p><a class="text-link" href="/pontos-turisticos">Saiba mais <i data-lucide="arrow-right" size="16"></i></a></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="section section--soft" id="roteiros">
+  <div class="container">
+    <div class="section-head reveal"><div class="section-head__text"><span class="eyebrow">Escolha seu roteiro</span><h2 class="section-title">Organize a viagem pelo tempo que você tem.</h2><p class="section-copy">Três propostas simples para equilibrar Centro Histórico, mar, cultura e gastronomia.</p></div></div>
+    <div class="route-tabs reveal" role="tablist" aria-label="Roteiros por duração">
+      <button class="route-tab is-active" data-target="#route-1" type="button">1 dia</button>
+      <button class="route-tab" data-target="#route-2" type="button">2 dias</button>
+      <button class="route-tab" data-target="#route-3" type="button">3 dias</button>
+    </div>
+    <div id="route-1" class="route-panel is-active reveal"><div class="route-summary"><i data-lucide="sunrise"></i><h3>Salvador essencial</h3><p>Um dia compacto priorizando Centro Histórico e Barra.</p></div><div class="route-steps"><div class="route-step"><span>Manhã</span><strong>Pelourinho</strong><p>Terreiro de Jesus, igrejas e ruas históricas.</p></div><div class="route-step"><span>Almoço</span><strong>Sabores baianos</strong><p>Experimente um prato tradicional no Centro ou Comércio.</p></div><div class="route-step"><span>Tarde</span><strong>Mercado + Lacerda</strong><p>Mercado Modelo, Praça Cairu e Elevador Lacerda.</p></div><div class="route-step"><span>Fim da tarde</span><strong>Farol da Barra</strong><p>Finalize com mar e pôr do sol.</p></div></div></div>
+    <div id="route-2" class="route-panel reveal"><div class="route-summary"><i data-lucide="calendar-days"></i><h3>Dois ritmos da cidade</h3><p>Patrimônio no primeiro dia; mar, fé e boemia no segundo.</p></div><div class="route-steps"><div class="route-step"><span>Dia 1 • manhã</span><strong>Centro Histórico</strong><p>Pelourinho e entorno.</p></div><div class="route-step"><span>Dia 1 • tarde</span><strong>Cidade Baixa</strong><p>Elevador Lacerda e Mercado Modelo.</p></div><div class="route-step"><span>Dia 2 • manhã</span><strong>Bonfim</strong><p>Igreja e região da Península de Itapagipe.</p></div><div class="route-step"><span>Dia 2 • noite</span><strong>Rio Vermelho</strong><p>Gastronomia e vida noturna.</p></div></div></div>
+    <div id="route-3" class="route-panel reveal"><div class="route-summary"><i data-lucide="route"></i><h3>Salvador em três dias</h3><p>Mais tempo para alternar história, praia, cultura e bairros.</p></div><div class="route-steps"><div class="route-step"><span>Dia 1</span><strong>Pelourinho + Comércio</strong><p>Patrimônio histórico e Cidade Baixa.</p></div><div class="route-step"><span>Dia 2</span><strong>Barra</strong><p>Praia, Museu Náutico e pôr do sol.</p></div><div class="route-step"><span>Dia 3 • manhã</span><strong>Bonfim + Dique</strong><p>Fé, paisagem urbana e esculturas dos orixás.</p></div><div class="route-step"><span>Dia 3 • noite</span><strong>Rio Vermelho</strong><p>Finalize com gastronomia e música.</p></div></div></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container split">
+    <img class="split__image reveal" src="https://commons.wikimedia.org/wiki/Special:FilePath/Baia%20de%20todos%20os%20santos%20-%20Salvador.jpg?width=1600" alt="Pôr do sol na Baía de Todos-os-Santos" loading="lazy">
+    <div class="split__content reveal"><span class="eyebrow">Paisagem que organiza a cidade</span><h2>A Baía de Todos-os-Santos como horizonte.</h2><p>Salvador foi implantada em posição estratégica sobre a baía, com a Cidade Alta protegida pela escarpa e a Cidade Baixa voltada para atividades portuárias e comerciais.</p><ul class="check-list"><li><i data-lucide="check-circle-2" size="20"></i><span>Vista ampla a partir da região do Elevador Lacerda e Praça Municipal.</span></li><li><i data-lucide="check-circle-2" size="20"></i><span>Pôr do sol especialmente marcante na Barra e em pontos da Cidade Baixa.</span></li><li><i data-lucide="check-circle-2" size="20"></i><span>Conexão visual entre patrimônio histórico, porto e mar.</span></li></ul></div>
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container"><div class="cta-band reveal"><div class="cta-band__content"><div><span class="eyebrow">Pronto para planejar?</span><h2>Use o guia prático antes de sair pela cidade.</h2><p>Veja clima, deslocamento, segurança, moeda, horários e mapa em uma página pensada para organizar a visita.</p></div><a class="btn btn--primary" href="/informacoes">Abrir informações úteis <i data-lucide="arrow-right" size="18"></i></a></div></div></div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="/"><img src="/public/assets/logo-mark.svg" alt="" width="39" height="39"><span>Viva Salvador</span></a>
+        <p>Descubra Salvador além dos cartões-postais: história, mar, cultura, sabores e experiências conectadas em um único guia.</p>
+      </div>
+      <div>
+        <h2 class="footer-title">Explorar</h2>
+        <div class="footer-links">
+          <a href="/">Início</a><a href="/historia">História</a><a href="/pontos-turisticos">Turismo</a><a href="/cultura">Cultura</a>
+        </div>
+      </div>
+      <div>
+        <h2 class="footer-title">Planejar</h2>
+        <div class="footer-links">
+          <a href="/gastronomia">Gastronomia</a><a href="/galeria">Galeria</a><a href="/informacoes">Informações</a><a href="/api/cidade">API da cidade</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© Viva Salvador</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
